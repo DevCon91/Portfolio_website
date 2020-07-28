@@ -155,9 +155,9 @@ img {
                 background: $dark-color;
                 color: set-text-colour($dark-color);
                 padding: 2rem;
-                width: 70px;
-                height: 70px;
-                line-height: 70px;
+                width: 50px;
+                height: 50px;
+                line-height: 50px;
                 text-align: center;
                 position: relative;
                 transition: all 1s;
@@ -204,6 +204,7 @@ img {
         .award-2 .fas {
             color: $main-color;
             margin: 1rem;
+            margin-left: 3px #000 solid;
         }
     }
     // About B 
@@ -279,7 +280,7 @@ img {
     &-c {
         h1 {
             text-align: center;
-            font-size: 4rem;
+            font-size: 3rem;
         }
     }
 }

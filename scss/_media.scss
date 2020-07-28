@@ -59,7 +59,7 @@
     #about {
         &-a {
             .about-info {
-                grid-template-areas: 'bioimage' 'bio' 'aw1' 'aw2';
+                grid-template-areas: 'bio' 'aw1' 'aw2';
             }
             .bio-image {
                 display: none;
@@ -130,6 +130,11 @@
             h1 {
                 font-size: 2rem;
             }
+        }
+    }
+    #about-a {
+        #cert {
+            display: none;
         }
     }
 }

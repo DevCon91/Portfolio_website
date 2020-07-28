@@ -276,9 +276,9 @@ img {
     background: #333;
     color: #fff;
     padding: 2rem;
-    width: 70px;
-    height: 70px;
-    line-height: 70px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
     text-align: center;
     position: relative;
     transition: all 1s; }
@@ -310,14 +310,11 @@ img {
 #about-a .award-2 {
   grid-area: aw2; }
 
-#about-a .award-3 {
-  grid-area: aw3; }
-
 #about-a .award-1 .fas,
-#about-a .award-2 .fas,
-#about-a .award-3 .fas {
+#about-a .award-2 .fas {
   color: #ffbc00;
-  margin: 1rem; }
+  margin: 1rem;
+  margin-left: 3px #000 solid; }
 
 #about-b .progress {
   overflow: hidden;
@@ -368,7 +365,7 @@ img {
 
 #contact-c h1 {
   text-align: center;
-  font-size: 4rem; }
+  font-size: 3rem; }
 
 #main-footer {
   background: #333;
@@ -426,7 +423,7 @@ img {
   #home-b .stats div {
     padding: 2rem 0 1rem 0; }
   #about-a .about-info {
-    grid-template-areas: 'bioimage' 'bio' 'aw1' 'aw2' 'aw3'; }
+    grid-template-areas: 'bio' 'aw1' 'aw2'; }
   #about-a .bio-image {
     display: none; }
   #about-c {
@@ -460,4 +457,6 @@ img {
 
 @media (max-height: 330px) {
   #header-home .header-content h1 {
-    font-size: 2rem; } }
+    font-size: 2rem; }
+  #about-a #cert {
+    display: none; } }
